@@ -1,13 +1,13 @@
-import "./app.css";
+import { useState } from "react";
+
 const App = () => {
+  const [count, setCount] = useState(0);
   return (
-    <>
-      <section>
-        <h1>0</h1>
-        <button>+</button>
-        <button>-</button>
-      </section>
-    </>
+    <section>
+      <h1>{count}</h1>
+      <button onClick={}>+</button>
+      <button onClick={}>-</button>
+    </section>
   );
 };
 
